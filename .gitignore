@@ -1,0 +1,13 @@
+# Operating System Files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporary Office Files
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+# Temporary simulation files
+*.tmp
+*.bak
