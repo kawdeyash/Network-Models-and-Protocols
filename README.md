@@ -30,6 +30,7 @@ Comprehensive practical laboratory assignments, simulation files, packet capture
 | **Unit 2** | **Protocol Analysis with Wireshark** | Wireshark, Kali Linux, TCP 3-Way Handshake, HTTP GET | Completed | [Unit 2 Docs](./Unit-2-Wireshark-Protocol-Analysis/) |
 | **Unit 3** | **DNS & Web Server Configuration** | Cisco Packet Tracer, DNS A-Record, HTTP Server | Completed | [Unit 3 Docs](./Unit-3-DNS-and-Web-Server/) |
 | **Unit 4** | **DHCP Server & Network Setup** | Cisco Packet Tracer, DHCP Pool, Dynamic IP Allocation | Completed | [Unit 4 Docs](./Unit-4-DHCP-Configuration/) |
+| **Tool** | **Python Network Scanner** | Python 3, Win32 SendARP, Multi-threaded Host/MAC Discovery, Reporting | Active | [Scanner Docs](./Python-Network-Scanner/) |
 
 ---
 
@@ -143,12 +144,20 @@ Network-Models-and-Protocols/
 │   ├── logical_topology.png                           # Topology diagram
 │   └── screenshots/                                   # DNS/Web service screenshots
 │
-└── Unit-4-DHCP-Configuration/                         # Unit 4 Practical
-    ├── README.md                                      # Detailed Unit 4 documentation
-    ├── NPC_Unit4_DHCP_Assignment.pkt                  # Packet Tracer topology
-    ├── NPC_Unit4_DHCP_Assignment_Report_Yash_Kawade.docx # Word report
-    ├── NPC_Unit4_DHCP_Assignment_Report_Yash_Kawade.pdf  # PDF report
-    └── screenshots/                                   # DHCP pool & verification screenshots
+├── Unit-4-DHCP-Configuration/                         # Unit 4 Practical
+│   ├── README.md                                      # Detailed Unit 4 documentation
+│   ├── NPC_Unit4_DHCP_Assignment.pkt                  # Packet Tracer topology
+│   ├── NPC_Unit4_DHCP_Assignment_Report_Yash_Kawade.docx # Word report
+│   ├── NPC_Unit4_DHCP_Assignment_Report_Yash_Kawade.pdf  # PDF report
+│   └── screenshots/                                   # DHCP pool & verification screenshots
+│
+└── Python-Network-Scanner/                            # Python Network Scanner Tool
+    ├── README.md                                      # Detailed scanner documentation & usage
+    ├── network_scanner.py                             # Multi-threaded host & MAC discovery script
+    ├── network_report.json                            # Exported JSON report
+    ├── network_report.csv                             # Exported CSV report
+    ├── network_report.md                              # Exported Markdown report
+    └── network_report.html                            # Exported responsive HTML dashboard
 ```
 
 ---

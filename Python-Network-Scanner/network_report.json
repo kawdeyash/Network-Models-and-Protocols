@@ -1,0 +1,28 @@
+{
+    "metadata": {
+        "scanner": "Python Network Scanner",
+        "author": "Yash Kawade (PRN: 2125UCSM1118)",
+        "target_subnet": "172.20.10.0/28",
+        "scan_timestamp": "2026-11-02T21:07:51.174783",
+        "duration_seconds": 5.18,
+        "active_hosts_count": 2
+    },
+    "active_hosts": [
+        {
+            "ip": "172.20.10.1",
+            "mac": "56:32:C7:17:DC:64",
+            "hostname": "N/A",
+            "vendor": "Apple, Inc. (Private/Randomized)",
+            "rtt_ms": 2.0,
+            "status": "Active"
+        },
+        {
+            "ip": "172.20.10.2",
+            "mac": "48:45:E6:D4:7F:49",
+            "hostname": "YASHUU-PC",
+            "vendor": "Unidentified Vendor",
+            "rtt_ms": 1.0,
+            "status": "Active"
+        }
+    ]
+}
